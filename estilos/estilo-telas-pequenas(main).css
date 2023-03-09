@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+
+img{
+    border: 1px solid black;
+}
+
+
+
+/* MOBILE */
+@media screen and (min-width: 600px) and (max-width: 780px){
+
+}
+/* TABLET */
+@media screen and (min-width: 780px) and (max-width: 992px){
+    
+}
