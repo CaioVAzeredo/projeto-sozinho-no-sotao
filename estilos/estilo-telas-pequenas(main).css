@@ -1,34 +1,77 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    
-}/* header */
-header{
+}
+
+
+/* header */
+header {
     background-color: black;
 }
-#logo-header{
+
+#logo-header {
     height: 100px;
     margin-left: 30px;
 }
-li{
-    text-align: center;
+
+/* menu */
+
+.material-icons{
     background-color: #ffae42;
-    margin-top: 1px;
-    padding: 7px;
-    text-decoration: none underline;
-    color: black;
-    font-size: 1.2em;
+    border-radius: 50%;
+    padding-top: 14px;
+    padding-left: 13px;
+    width: 51px;
+    height: 53px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.material-icons:hover{
+    background-color: #fabf72;
+    cursor: pointer;
+}
+.material-icons:active{
+    width: 49px;
+    height: 51px;
+    padding-top: 13px;
+    padding-left: 12px;
+    margin-bottom: 6px;
+    background-color: #f08800;
+    color: #000000;
 }
 
-li:hover{
-    background-color: #ffbd67;
+
+menu {
+    display: block;
 }
+menu>ul {
+    list-style-type: none;
+}
+menu>ul>li>a {
+    display: block;
+    padding: 10px;
+    border-top: 1px black solid;
+    text-decoration: none;
+    background-color: #ffae42;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+}
+menu>ul>li>a:hover{
+    background-color: #fabf72;
+}
+menu>ul>li>a:active{
+    background-color: #f08800;
+    color: #000000;
+}
+
 /* album */
-#capa-album{
+#capa-album {
     height: 400px;
     width: 400px;
 }
@@ -37,10 +80,7 @@ li:hover{
 
 
 /* MOBILE */
-@media screen and (min-width: 600px) and (max-width: 780px){
+@media screen and (min-width: 600px) and (max-width: 780px) {}
 
-}
 /* TABLET */
-@media screen and (min-width: 780px) and (max-width: 992px){
-    
-}
+@media screen and (min-width: 780px) and (max-width: 992px) {}
