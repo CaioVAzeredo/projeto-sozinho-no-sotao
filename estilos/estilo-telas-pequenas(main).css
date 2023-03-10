@@ -1,25 +1,24 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-/* MOBILE */
-@media screen and (max-width: 780px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Montserrat', sans-serif;
-        box-sizing: border-box;
-       
-        /* por enquanto */
-    }
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 
-    body {
-        background-color: #000000;
-    }
+    /* por enquanto */
+}
+
+body {
+    background-color: #000000;
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
 
     /* header */
     /* logo */
-
-
     #logo-header {
         margin-top: 5px;
         height: 100px;
@@ -111,54 +110,81 @@
         height: 60px;
     }
 
-
-
-    /* album */
-    #capa-album {
-        height: 400px;
-        width: 400px;
-    }
-
-    /* AGENDA */
-    #agenda {
-        text-align: center;
-        background-color: #f08800;
-    }
-
-    #Pvideo {
-        text-align: center;
-        color: #f08800;
-    }
-
-    /* footer */
-    #contato {
-        text-align: center;
-        background-color: #f08800;
-        color: black;
-    }
-
-    #contato>a>strong,
-    #contato>a,
-    #contato>h1 {
-        text-align: center;
-        background-color: #f08800;
-        color: black;
-        text-decoration: none;
-    }
-
-
-    #desenvolvedores {
-        text-align: center;
-        color: #f08800;
-        text-decoration: none;
-    }
-    #desenvolvedores> a > strong, #desenvolvedores> a {
-        
-        color: #f08800;
-        text-decoration: none;
-    }
-
 }
 
+/* album */
+#capa-album {
+    height: 400px;
+    width: 400px;
+}
+
+/* AGENDA */
+#agenda {
+    text-align: center;
+    background-color: #f08800;
+}
+
+#Pvideo {
+    text-align: center;
+    color: #f08800;
+}
+
+/* footer */
+#contato {
+    text-align: center;
+    background-color: #f08800;
+    color: black;
+}
+
+#contato>a>strong,
+#contato>a,
+#contato>h1 {
+    text-align: center;
+    background-color: #f08800;
+    color: black;
+    text-decoration: none;
+}
+
+
+#desenvolvedores {
+    text-align: center;
+    color: #f08800;
+    text-decoration: none;
+}
+
+#desenvolvedores>a>strong,
+#desenvolvedores>a {
+
+    color: #f08800;
+    text-decoration: none;
+}
+
+
+
 /* TABLET */
-@media screen and (min-width: 780px) and (max-width: 992px) {}
+@media screen and (min-width: 768px) {
+    #logo-header {
+        margin-top: 5px;
+        height: 100px;
+        margin-left: 5px;
+    }
+    span {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu>ul>li {
+        display: inline-block;
+        background-color: #ffae42;
+        border-radius: 10%;
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+        text-align: center;
+        padding-top: 7px;
+    }
+    
+}
