@@ -99,7 +99,8 @@
         position: absolute;
         left: 50%;
         top: 50%;
-
+        width: 195px;
+        margin-top: 5px;
         transform: translate(-50%, -50%);
     }
 
@@ -108,7 +109,6 @@
     #tiktok {
         width: 60px;
         height: 60px;
-        margin-left: 40;
     }
 
 
