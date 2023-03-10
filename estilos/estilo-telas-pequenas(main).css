@@ -1,89 +1,164 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-}
-
-/* header */
-/* logo */
-header {
-    background-color: black;
-}
-
-#logo-header {
-    margin-top: 5px;
-    height: 100px;
-    margin-left: 5px;
-}
-/* menu */
-header>div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    padding: 5px;
-
-}
- .material-icons{
-    background-color: #ffae42;
-    border-radius: 10%;
-    padding-top: 14px;
-    padding-left: 13px;
-    width: 51px;
-    height: 53px;
-    cursor: pointer;
-    margin-right: 5px;
-    margin-bottom: -50px;
-} 
-.material-icons:hover{
-    background-color: #fabf72;
-    cursor: pointer;     
-}
-.material-icons:active{
-    background-color: #f08800;
-    color: #000000;
-}
-menu {
-    display: none;
-}
-menu>ul {
-    list-style-type: none;
-}
-menu>ul>li>a {
-    display: block;
-    padding: 10px;
-    border-top: 1px black solid;
-    text-decoration: none;
-    background-color: #ffae42;
-    color: black;
-    text-align: center;
-    font-size: 1.2em;
-}
-menu>ul>li>a:hover{
-    background-color: #fabf72;
-}
-menu>ul>li>a:active{
-    background-color: #f08800;
-    color: #000000;
-}
-
-
-
-/* album */
-#capa-album {
-    height: 400px;
-    width: 400px;
-}
-
-
-
-
 /* MOBILE */
-@media screen and (min-width: 600px) and (max-width: 780px) {}
+@media screen and (max-width: 780px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Montserrat', sans-serif;
+        box-sizing: border-box;
+       
+        /* por enquanto */
+    }
+
+    body {
+        background-color: #000000;
+    }
+
+    /* header */
+    /* logo */
+
+
+    #logo-header {
+        margin-top: 5px;
+        height: 100px;
+        margin-left: 5px;
+    }
+
+    /* menu */
+    header>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 5px;
+
+    }
+
+    .material-icons {
+        color: black;
+        background-color: #ffae42;
+        border-radius: 10%;
+        padding-top: 14px;
+        padding-left: 13px;
+        width: 51px;
+        height: 53px;
+        cursor: pointer;
+        margin-right: 5px;
+        margin-bottom: -50px;
+    }
+
+    .material-icons:hover {
+        background-color: #fabf72;
+        cursor: pointer;
+    }
+
+    .material-icons:active {
+        background-color: #f08800;
+        color: #000000;
+    }
+
+    menu {
+        display: none;
+    }
+
+    menu>ul {
+        list-style-type: none;
+    }
+
+    menu>ul>li>a {
+        display: block;
+        padding: 10px;
+        border-top: 1px black solid;
+        text-decoration: none;
+        background-color: #ffae42;
+        color: black;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    menu>ul>li>a:hover {
+        background-color: #fabf72;
+    }
+
+    menu>ul>li>a:active {
+        background-color: #f08800;
+        color: #000000;
+    }
+
+    /* redes sociais */
+    #sociais {
+        position: relative;
+        margin: auto;
+        position: relative;
+        padding: 35px;
+    }
+
+    #sociais>div {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    #instagram,
+    #facebook,
+    #tiktok {
+        width: 60px;
+        height: 60px;
+        margin-left: 40;
+    }
+
+
+
+    /* album */
+    #capa-album {
+        height: 400px;
+        width: 400px;
+    }
+
+    /* AGENDA */
+    #agenda {
+        text-align: center;
+        background-color: #f08800;
+    }
+
+    #Pvideo {
+        text-align: center;
+        color: #f08800;
+    }
+
+    /* footer */
+    #contato {
+        text-align: center;
+        background-color: #f08800;
+        color: black;
+    }
+
+    #contato>a>strong,
+    #contato>a,
+    #contato>h1 {
+        text-align: center;
+        background-color: #f08800;
+        color: black;
+        text-decoration: none;
+    }
+
+
+    #desenvolvedores {
+        text-align: center;
+        color: #f08800;
+        text-decoration: none;
+    }
+    #desenvolvedores> a > strong, #desenvolvedores> a {
+        
+        color: #f08800;
+        text-decoration: none;
+    }
+
+}
 
 /* TABLET */
 @media screen and (min-width: 780px) and (max-width: 992px) {}
