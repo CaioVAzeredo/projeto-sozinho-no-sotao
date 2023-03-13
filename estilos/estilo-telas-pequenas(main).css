@@ -35,7 +35,7 @@ body {
 
     }
 
-    .material-icons {
+    #burguer {
         color: black;
         background-color: #ffae42;
         border-radius: 10%;
@@ -48,12 +48,12 @@ body {
         margin-bottom: -50px;
     }
 
-    .material-icons:hover {
+    #burguer:hover {
         background-color: #fabf72;
         cursor: pointer;
     }
 
-    .material-icons:active {
+    #burguer:active {
         background-color: #f08800;
         color: #000000;
     }
@@ -90,7 +90,6 @@ body {
     #sociais {
         position: relative;
         margin: auto;
-        position: relative;
         padding: 35px;
     }
 
@@ -110,56 +109,63 @@ body {
         height: 60px;
     }
 
+    section#sociais>div>a,
+    section#sociais>div>a>img {
+        border-radius: 100%;
+    }
+
+    /* album */
+    #capa-album {
+        height: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        margin-top: 200px;
+    }
+
+
+    /* AGENDA */
+    #agenda {
+        text-align: center;
+        background-color: #f08800;
+    }
+
+    #Pvideo {
+        text-align: center;
+        color: #f08800;
+    }
+
+    /* footer */
+    #contato {
+        text-align: center;
+        background-color: #f08800;
+        color: black;
+    }
+
+    #contato>a>strong,
+    #contato>a,
+    #contato>h1 {
+        text-align: center;
+        background-color: #f08800;
+        color: black;
+        text-decoration: none;
+    }
+
+
+    #desenvolvedores {
+        text-align: center;
+        color: #f08800;
+        text-decoration: none;
+    }
+
+    #desenvolvedores>a>strong,
+    #desenvolvedores>a {
+
+        color: #f08800;
+        text-decoration: none;
+    }
+
 }
-
-/* album */
-#capa-album {
-    height: 400px;
-    width: 400px;
-}
-
-/* AGENDA */
-#agenda {
-    text-align: center;
-    background-color: #f08800;
-}
-
-#Pvideo {
-    text-align: center;
-    color: #f08800;
-}
-
-/* footer */
-#contato {
-    text-align: center;
-    background-color: #f08800;
-    color: black;
-}
-
-#contato>a>strong,
-#contato>a,
-#contato>h1 {
-    text-align: center;
-    background-color: #f08800;
-    color: black;
-    text-decoration: none;
-}
-
-
-#desenvolvedores {
-    text-align: center;
-    color: #f08800;
-    text-decoration: none;
-}
-
-#desenvolvedores>a>strong,
-#desenvolvedores>a {
-
-    color: #f08800;
-    text-decoration: none;
-}
-
-
 
 /* TABLET */
 @media screen and (min-width: 768px) {
@@ -168,7 +174,8 @@ body {
         height: 100px;
         margin-left: 5px;
     }
-    span {
+
+    span#burguer {
         display: none;
     }
 
@@ -176,7 +183,7 @@ body {
         display: block;
     }
 
-    menu>ul>li {
+    menu>ul>li>a {
         display: inline-block;
         background-color: #ffae42;
         border-radius: 10%;
@@ -186,5 +193,5 @@ body {
         text-align: center;
         padding-top: 7px;
     }
-    
+
 }
