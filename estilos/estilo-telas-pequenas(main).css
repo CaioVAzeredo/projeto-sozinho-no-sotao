@@ -115,14 +115,38 @@ body {
     }
 
     /* album */
+    section#album{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #ouca{
+        width: 290px;
+        display: block;
+        margin: auto;
+    }
+    #disse{
+        width: 350px;
+        display: block;
+        margin: auto;
+    }
+    #era{
+        width: 350px;
+        display: block;
+        margin: auto;
+    }
     #capa-album {
         height: 300px;
         display: block;
-        margin: 0 auto;
-        margin-bottom: 50px;
-        margin-top: 200px;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
+    #em{
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
 
     /* AGENDA */
     #agenda {
