@@ -1,5 +1,5 @@
+const material = document.querySelector('.material-icons')
 function click() {
-    const material = document.querySelector('.material-icons')
     document.addEventListener('click', (e) => {
         const el = e.target
 
@@ -27,5 +27,15 @@ function click() {
 
 }
 
+function tela(){
+window.addEventListener('resize', (e)=>{
+if(window.innerWidth >=768){
+    itens.style.display = 'block'
+}else{
+    itens.style.display = 'none'
+}
+})
+}
+tela()
 click()
 
