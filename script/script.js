@@ -24,7 +24,6 @@ function click() {
             alert('Página em desenvolvimento')
         }
     })
-
 }
 
 function tela() {
