@@ -146,32 +146,51 @@ body {
         width: 300px;
         display: block;
         margin: auto;
+        margin-top: 30px;
     }
-    section#album > div#stream > a > img{
+    div#stream{
+        height: 150px;
+        width: 125px;
+        margin: 0px;
+        margin: auto;
+    }
+
+    section#album >div > div#stream > a > img{
+        display: block;
+
         width: 80px;
         height: 45px;
+        margin-top: 15px;
     }
-    section#album > div#stream > a > img#spotify,
-    section#album > div#stream > a > img#yt{
-        width: 80px;
+    section#album > div{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    section#album >div > div#stream > a > img#spotify{
+        width: 120px;
+        height: 45px;
+    }section#album >div > div#stream > a > img#yt{
+        width: 130px;
         height: 45px;
     }
 
-    section#album > div#stream > a > img#amazon{
-        width: 120px;
-        height: 90px;
+    section#album >div > div#stream > a > img#amazon{
+        width: 130px;
+        height: 40px;
     }
-    section#album > div#stream > a > img#deezer{
+    section#album >div > div#stream > a > img#deezer{
         width: 120px;
-        height: 90px;
+        height: 40px;
     }
-    section#album > div#stream > a > img#apple{
+    section#album > div> div#stream > a > img#apple{
         width: 120px;
         height: 35px;
     }
-    section#album > div#stream > a > img#itunes{
+    section#album >div > div#stream > a > img#itunes{
+        margin-top: 30px;
         width: 120px;
-        height: 35px;
+        height: 30px;
     }
     /* AGENDA */
     #agenda {
