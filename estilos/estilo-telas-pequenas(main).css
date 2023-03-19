@@ -6,7 +6,16 @@
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+
+    /* por enquanto */
 }
+
+body {
+    background-color: #000000;
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
 
 /* header */
 /* logo */
@@ -25,65 +34,216 @@ header>div{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-    padding: 5px;   
+    padding: 5px;
+
+    }
+
+    #burguer {
+        color: black;
+        background-color: #ffae42;
+        border-radius: 10%;
+        padding-top: 14px;
+        padding-left: 13px;
+        width: 51px;
+        height: 53px;
+        cursor: pointer;
+        margin-right: 5px;
+        margin-bottom: -50px;
+    }
+
+    #burguer:hover {
+        background-color: #fabf72;
+        cursor: pointer;
+    }
+
+    #burguer:active {
+        background-color: #f08800;
+        color: #000000;
+    }
+
+    menu {
+        display: none;
+    }
+
+    menu>ul {
+        list-style-type: none;
+    }
+
+    menu>ul>li>a {
+        display: block;
+        padding: 10px;
+        border-top: 1px black solid;
+        text-decoration: none;
+        background-color: #ffae42;
+        color: black;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    menu>ul>li>a:hover {
+        background-color: #fabf72;
+    }
+
+    menu>ul>li>a:active {
+        background-color: #f08800;
+        color: #000000;
+    }
+
+    /* redes sociais */
+    #sociais {
+        position: relative;
+        margin: auto;
+        padding: 35px;
+    }
+
+    #sociais>div {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 195px;
+        margin-top: 5px;
+        transform: translate(-50%, -50%);
+    }
+
+    #instagram,
+    #facebook,
+    #tiktok {
+        width: 60px;
+        height: 60px;
+    }
+
+    section#sociais>div>a,
+    section#sociais>div>a>img {
+        border-radius: 100%;
+    }
+
+    /* album */
+    section#album{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #ouca{
+        width: 290px;
+        display: block;
+        margin: auto;
+    }
+    #disse{
+        width: 350px;
+        display: block;
+        margin: auto;
+    }
+    #era{
+        width: 350px;
+        display: block;
+        margin: auto;
+    }
+    #capa-album {
+        height: 300px;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #em{
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
+    section#album > div#stream > a > img{
+        width: 80px;
+        height: 45px;
+    }
+    section#album > div#stream > a > img#spotify,
+    section#album > div#stream > a > img#yt{
+        width: 80px;
+        height: 45px;
+    }
+
+    section#album > div#stream > a > img#amazon{
+        width: 120px;
+        height: 90px;
+    }
+    section#album > div#stream > a > img#deezer{
+        width: 120px;
+        height: 90px;
+    }
+    section#album > div#stream > a > img#apple{
+        width: 120px;
+        height: 35px;
+    }
+    section#album > div#stream > a > img#itunes{
+        width: 120px;
+        height: 35px;
+    }
+    /* AGENDA */
+    #agenda {
+        text-align: center;
+        background-color: #f08800;
+    }
+
+    #Pvideo {
+        text-align: center;
+        color: #f08800;
+    }
+
+    /* footer */
+    #contato {
+        text-align: center;
+        background-color: #f08800;
+        color: black;
+    }
+
+    #contato>a>strong,
+    #contato>a,
+    #contato>h1 {
+        text-align: center;
+        background-color: #f08800;
+        color: black;
+        text-decoration: none;
+    }
+
+
+    #desenvolvedores {
+        text-align: center;
+        color: #f08800;
+        text-decoration: none;
+    }
+
+    #desenvolvedores>a>strong,
+    #desenvolvedores>a {
+
+        color: #f08800;
+        text-decoration: none;
+    }
 
 }
- .material-icons{
-    background-color: #ffae42;
-    border-radius: 10%;
-    padding-top: 14px;
-    padding-left: 13px;
-    width: 51px;
-    height: 53px;
-    cursor: pointer;
-    margin-right: 5px;
-    margin-bottom: -50px;
-} 
-.material-icons:hover{
-    background-color: #fabf72;
-    cursor: pointer;     
-}
-.material-icons:active{
-    background-color: #f08800;
-    color: #000000;
-}
-menu {
-    display: none;
-}
-menu>ul {
-    list-style-type: none;
-}
-menu>ul>li>a {
-    display: block;
-    padding: 10px;
-    border-top: 1px black solid;
-    text-decoration: none;
-    background-color: #ffae42;
-    color: black;
-    text-align: center;
-    font-size: 1.2em;
-}
-menu>ul>li>a:hover{
-    background-color: #fabf72;
-}
-menu>ul>li>a:active{
-    background-color: #f08800;
-    color: #000000;
-}
-
-
-
-/* album */
-#capa-album {
-    height: 400px;
-    width: 400px;
-}
-
-
-
-
-/* MOBILE */
-@media screen and (min-width: 600px) and (max-width: 780px) {}
 
 /* TABLET */
-@media screen and (min-width: 780px) and (max-width: 992px) {}
+@media screen and (min-width: 768px) {
+    #logo-header {
+        margin-top: 5px;
+        height: 100px;
+        margin-left: 5px;
+    }
+
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu>ul>li>a {
+        display: inline-block;
+        background-color: #ffae42;
+        border-radius: 10%;
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+        text-align: center;
+        padding-top: 7px;
+    }
+
+}

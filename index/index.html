@@ -16,13 +16,13 @@
     <!-- Cabeçalho (logo e menu) -->
     <header>
         <div><img src="../imagens/Logo-sozinho-no-sotao.png" alt="Logo-sozinho-no-sotao" id="logo-header"><!-- logo -->
-            <span class="material-icons" onclick="clickMenu()">menu</span>
+            <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
         </div><!-- icone haburguer para telas pequenas-->
 
         <menu id="itens"><!-- menu -->
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#" onclick="clickShop()">Shop</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" class="shop">Shop</a></li>
                 <li><a href="contato.html" target="_parent">Contato</a></li>
                 <li><a href="vlogs.html" target="_parent">Vlogs</a></li>
                 <li><a href="#">Covers </a></li>
@@ -31,18 +31,35 @@
     </header>
     <!-- Conteúdo principal do site -->
     <main>
-        <section id="redes-sociais">
-            <a href="https://www.facebook.com/sozinhonosotao" target="_blank"><img src="../imagens/logo-face.png"
-                    alt="logo-face"></a><!-- icone facebook -->
-            <a href="https://www.instagram.com/sozinhonosotao/" target="_blank"><img src="../imagens/logo-insta.png"
-                    alt="logo-insta"></a><!-- icone instagram -->
-            <a href="https://www.tiktok.com/@sozinhonosotao" target="_blank"><img src="../imagens/logo-tiktiok.png"
-                    alt="logo-tiktiok"></a><!-- icone tiktok -->
-            <a href="" target="_blank"><img src="../imagens/logo-wpp.png" alt="logo-wpp"></a><!-- icone whatsApp -->
+        <section id="sociais">
+            <div>
+
+                <a href="https://www.facebook.com/sozinhonosotao" target="_blank"><img id="facebook"
+                        src="../imagens/logo-face.png" alt="logo-face"></a><!-- icone facebook -->
+                <a href="https://www.instagram.com/sozinhonosotao/" target="_blank"><img id="instagram"
+                        src="../imagens/logo-insta.png" alt="logo-insta"></a><!-- icone instagram -->
+                <a href="https://www.tiktok.com/@sozinhonosotao" target="_blank"><img id="tiktok"
+                        src="../imagens/logo-tiktiok.png" alt="logo-tiktiok"></a>
+            </div><!-- icone tiktok -->
+            <!-- icone whatsApp -->
         </section>
         <section id="album">
-            <!-- colocar o restante das informações. PS: AINDA NAO SEI SE COLOCO COMO IMAGEM OU COLOCO A FONTE, A FONTE NAO TA FUNCIONANDO -->
+            <img id="ouca" src="../imagens/frases-album/ouca-agora-o-ep-removebg-preview.png" alt="">
+            <img  id="disse" src="../imagens/frases-album/ela-disse-que-nao-removebg-preview.png" alt="">
+            <img  id="era" src="../imagens/frases-album/era-mais-feliz-removebg-preview.png" alt="">
             <img src="../imagens/capa-album.jpg" alt="capa do album" id="capa-album">
+            <img  id="em" src="../imagens/frases-album/emtodas-as-plataformas-removebg-preview.png" alt="">
+           
+            <div id="stream">
+                <a href="https://open.spotify.com/artist/46UIlgkXvd8aKcQUXFCU7o"><img id="spotify" src="../imagens/stream-de-musicas/spotify-logo.png" alt=""></a>
+                <a href="https://www.youtube.com/@sozinhonosotao2624"><img id="yt" src="../imagens/stream-de-musicas/youtube-logo.png" alt=""></a>
+                <a href="https://music.amazon.com.br/artists/B08HPSBB9Y/sozinho-no-s%C3%B3t%C3%A3o"><img id="amazon" src="../imagens/stream-de-musicas/amazon-music-Logo.png" alt=""></a>
+            </div>
+            <div id="stream">
+                <a href=""><img id="deezer" src="../imagens/stream-de-musicas/deezer-logo.png" alt=""></a>
+                <a href=""><img id="apple" src="../imagens/stream-de-musicas/apple-logo.png" alt=""></a>
+                <a href=""><img id="itunes" src="../imagens/stream-de-musicas/itunes-store-logo.svg.png" alt=""></a>
+            </div> 
         </section>
         <!-- agenda de shows -->
         <section id="agenda">
@@ -62,28 +79,30 @@
         </section>
         <section id="Pvideo">
             <p>Assita também a participação do sozinho no sótão no canal do YouTube do União Underground TV.</p>
-            <div id="video">
+           <!--  <div id="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/m62csSGceYU"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
-            </div>
+            </div> -->
         </section>
     </main>
     <!-- contato do cliente com informações de email e número -->
     <footer id="contato">
-        Contato para shows
-        <a href="mailto:sozinhonosotao@gmail.com">sozinhonosotao@gmail.com</a>
-        <a href="mailto:thiago.neves@gmail.com">thiago.neves@gmail.com</a>
+        <h1>Contato para shows</h1>
+        <a href="mailto:sozinhonosotao@gmail.com"><strong>sozinhonosotao@gmail.com</strong></a>
+        <a href="mailto:thiago.neves@gmail.com"><strong>thiago.neves@gmail.com</strong></a>
 
     </footer>
     <!-- rodapé com informações dos desenvolvedores (links levando para alguma rede social dos desenvolvedores) -->
-    <footer>
+
+    <footer id="desenvolvedores">
         Site feito por <strong><a href="https://github.com/CaioVAzeredo" target="_blank">Caio V. Azeredo</a></strong> e
-        <strong><a href="https://github.com/Dan-Dias">Daniel Dias</a></strong>
+        <strong><a href="https://github.com/Dan-Dias">Daniel Dias</a></strong> 
     </footer>
 </body>
 <!-- script do site -->
 <script src="../script/script.js"></script>
+
 
 </html>
