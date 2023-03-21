@@ -7,6 +7,7 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 
+
     /* por enquanto */
 }
 
@@ -115,25 +116,29 @@ body {
     }
 
     /* album */
-    section#album{
+    section#album {
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    #ouca{
+
+    #ouca {
         width: 290px;
         display: block;
         margin: auto;
     }
-    #disse{
+
+    #disse {
         width: 350px;
         display: block;
         margin: auto;
     }
-    #era{
+
+    #era {
         width: 350px;
         display: block;
         margin: auto;
     }
+
     #capa-album {
         height: 300px;
         display: block;
@@ -142,65 +147,125 @@ body {
         margin-top: 10px;
     }
 
-    #em{
+    #em {
         width: 300px;
         display: block;
         margin: auto;
         margin-top: 30px;
     }
-    div#stream{
+
+    div#stream {
         height: 150px;
         width: 125px;
         margin: 0px;
         margin: auto;
     }
 
-    section#album >div > div#stream > a > img{
+    section#album>div>div#stream>a>img {
         display: block;
 
         width: 80px;
         height: 45px;
         margin-top: 15px;
     }
-    section#album > div{
+
+    section#album>div {
+        width: 300px;
+        margin: 0 auto;
         margin-top: 15px;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 15%;
     }
-    section#album >div > div#stream > a > img#spotify{
+
+    section#album>div>div#stream>a>img#spotify {
         width: 120px;
         height: 45px;
-    }section#album >div > div#stream > a > img#yt{
+    }
+
+    section#album>div>div#stream>a>img#yt {
         width: 130px;
         height: 45px;
     }
 
-    section#album >div > div#stream > a > img#amazon{
+    section#album>div>div#stream>a>img#amazon {
         width: 130px;
         height: 40px;
     }
-    section#album >div > div#stream > a > img#deezer{
+
+    section#album>div>div#stream>a>img#deezer {
         width: 120px;
-        height: 40px;
+        height: 35px;
+        margin-bottom: 25px;
     }
-    section#album > div> div#stream > a > img#apple{
+
+    section#album>div>div#stream>a>img#apple {
         width: 120px;
         height: 35px;
     }
-    section#album >div > div#stream > a > img#itunes{
+
+    section#album>div>div#stream>a>img#itunes {
         margin-top: 30px;
         width: 120px;
         height: 30px;
     }
+
     /* AGENDA */
     #agenda {
         text-align: center;
         background-color: #f08800;
     }
 
+    #agenda>h1 {
+        font-size: 2.5em;
+    }
+
+    #agenda>p {
+        font-size: 1.5em;
+    }
+
+    #agenda>a>input {
+        padding: 10px;
+        border: #000000;
+        color: #f08800;
+        background-color: black;
+        font-size: 1.5em;
+        margin: 10px 0px 10px 0px;
+    }
+
+    #agenda>a>input:hover {
+        padding: 8px;
+        border: #000000 2px solid;
+        color: #000000;
+        font-weight: bolder;
+        background-color: #f08800;
+        cursor: pointer;
+    }
+
     #Pvideo {
         text-align: center;
         color: #f08800;
+        margin-top: 20px;
+    }
+
+    #Pvideo>P {
+        font-size: 1.1em;
+    }
+
+    #Pvideo>div {
+        margin: 0px 0px 30px 0px;
+        padding: 0px;
+        padding-bottom: 58%;
+        position: relative;
+    }
+
+    iframe {
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        width: 90%;
+        height: 95%;
     }
 
     /* footer */
@@ -208,6 +273,11 @@ body {
         text-align: center;
         background-color: #f08800;
         color: black;
+        padding-bottom: 10px;
+    }
+
+    #contato>h1 {
+        font-size: 2.5em;
     }
 
     #contato>a>strong,
@@ -216,7 +286,12 @@ body {
         text-align: center;
         background-color: #f08800;
         color: black;
-        text-decoration: none;
+    }
+
+    #contato>a>strong,
+    #contato>a {
+        display: block;
+        margin: 10px;
     }
 
 
@@ -232,7 +307,7 @@ body {
         color: #f08800;
         text-decoration: none;
     }
-
+    
 }
 
 /* TABLET */
