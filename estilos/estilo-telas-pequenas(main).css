@@ -11,147 +11,414 @@
     /* por enquanto */
 }
 
-body {
+body,
+html {
     background-color: #000000;
 }
 
 /* MOBILE */
-@media screen and (max-width: 768px) {
 
-    /* header */
-    /* logo */
+
+/* header */
+/* logo */
+#logo-header {
+    margin-top: 5px;
+    height: 100px;
+    margin-left: 5px;
+    transition: .1s;
+}
+
+/* menu */
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+#burguer {
+    color: black;
+    background-color: #ffae42;
+    border-radius: 10%;
+    padding-top: 14px;
+    padding-left: 13px;
+    width: 51px;
+    height: 53px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: -50px;
+}
+
+#burguer:hover {
+    background-color: #fabf72;
+    cursor: pointer;
+}
+
+#burguer:active {
+    background-color: #f08800;
+    color: #000000;
+}
+
+menu {
+    display: none;
+}
+
+menu>ul {
+    list-style-type: none;
+}
+
+menu>ul>li>a {
+    display: block;
+    padding: 10px;
+    border-top: 1px black solid;
+    text-decoration: none;
+    background-color: #ffae42;
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+menu>ul>li>a:hover {
+    background-color: #fabf72;
+}
+
+menu>ul>li>a:active {
+    background-color: #f08800;
+    color: #000000;
+}
+
+/* redes sociais */
+#sociais {
+    position: relative;
+    margin: auto;
+    padding: 35px;
+}
+
+#sociais>div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 195px;
+    margin-top: 5px;
+    transform: translate(-50%, -50%);
+}
+
+#instagram,
+#facebook,
+#tiktok {
+    width: 60px;
+    height: 60px;
+}
+
+section#sociais>div>a,
+section#sociais>div>a>img {
+    border-radius: 100%;
+}
+
+/* album */
+section#album {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: .1s;
+}
+
+#ouca {
+    width: 290px;
+    display: block;
+    margin: auto;
+    transition: .1s;
+}
+
+#disse {
+    width: 350px;
+    display: block;
+    margin: auto;
+    transition: .1s;
+}
+
+#era {
+    width: 350px;
+    display: block;
+    margin: auto;
+    transition: .1s;
+}
+
+#capa-album {
+    height: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: .1s;
+}
+
+#em {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    transition: .1s;
+}
+
+div#stream {
+    height: 150px;
+    width: 125px;
+    margin: 0px;
+    margin: auto;
+    transition: .1s;
+}
+
+section#album>div>div#stream>a>img {
+    display: block;
+
+    width: 80px;
+    height: 45px;
+    margin-top: 15px;
+    transition: .1s;
+}
+
+section#album>div {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15%;
+    transition: .1s;
+}
+
+section#album>div>div#stream>a>img#spotify {
+    width: 120px;
+    height: 45px;
+    transition: .1s;
+}
+
+section#album>div>div#stream>a>img#yt {
+    width: 130px;
+    height: 40px;
+    transition: .1s;
+}
+
+section#album>div>div#stream>a>img#amazon {
+    width: 130px;
+    height: 40px;
+
+    transition: .1s;
+}
+
+section#album>div>div#stream>a>img#deezer {
+    width: 120px;
+    height: 35px;
+    margin-bottom: 25px;
+    transition: .1s;
+}
+
+section#album>div>div#stream>a>img#apple {
+    width: 120px;
+    height: 35px;
+    transition: .1s;
+}
+
+section#album>div>div#stream>a>img#itunes {
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    transition: .1s;
+}
+
+/* AGENDA */
+#agenda {
+    text-align: center;
+    background-color: #f08800;
+}
+
+#agenda>h1 {
+    font-size: 2.5em;
+}
+
+#agenda>p {
+    font-size: 1.5em;
+}
+
+#agenda>p>a>input {
+    padding: 10px 55px;
+    margin: 10px 0px 10px 0px;
+    border: #000000;
+    color: #f08800;
+    background-color: black;
+    font-size: 1.1em;
+    margin: 10px 0px 10px 0px;
+}
+
+#agenda>p>a>input:hover {
+    padding: 10px 55px;
+    margin: 10px 0px 10px 0px;
+    transition: 0.2s;
+    border: #000000 1px solid;
+    color: #000000;
+    font-weight: bolder;
+    background-color: #f08800;
+    cursor: pointer;
+}
+
+#Pvideo {
+    text-align: center;
+    color: #f08800;
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+
+#Pvideo>P {
+    font-size: 1.1em;
+}
+
+#Pvideo>div {
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+iframe {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 95%;
+}
+
+
+/* footer */
+#contato {
+    text-align: center;
+    background-color: #f08800;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#contato>h1 {
+    font-size: 1.5em;
+}
+
+#contato>a>strong,
+#contato>a,
+#contato>h1 {
+    text-align: center;
+    background-color: #f08800;
+    color: black;
+}
+
+#contato>a>strong,
+#contato>a {
+    display: block;
+    margin: 10px;
+}
+
+
+#desenvolvedores {
+    text-align: center;
+    color: #f08800;
+    text-decoration: none;
+}
+
+#desenvolvedores>a>strong,
+#desenvolvedores>a {
+
+    color: #f08800;
+    text-decoration: none;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
     #logo-header {
-        margin-top: 5px;
-        height: 100px;
-        margin-left: 5px;
-    }
-
-    /* menu */
-    header>div {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 10px;
-        padding: 5px;
-
+        margin-top: 10px;
+        height: 150px;
+        margin-left: 10px;
+        margin-bottom: 25px;
+        transition: .1s;
     }
 
     #burguer {
-        color: black;
-        background-color: #ffae42;
-        border-radius: 10%;
-        padding-top: 14px;
-        padding-left: 13px;
-        width: 51px;
-        height: 53px;
-        cursor: pointer;
-        margin-right: 5px;
-        margin-bottom: -50px;
-    }
-
-    #burguer:hover {
-        background-color: #fabf72;
-        cursor: pointer;
-    }
-
-    #burguer:active {
-        background-color: #f08800;
-        color: #000000;
-    }
-
-    menu {
         display: none;
     }
 
     menu>ul {
         list-style-type: none;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    menu>ul>li {
+        display: inline-block;
     }
 
     menu>ul>li>a {
-        display: block;
-        padding: 10px;
-        border-top: 1px black solid;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        font-size: 15px;
         text-decoration: none;
-        background-color: #ffae42;
-        color: black;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background: #ffae42;
+        padding: 5px 45px 5px 45px;
         text-align: center;
-        font-size: 1.5em;
     }
 
     menu>ul>li>a:hover {
-        background-color: #fabf72;
-    }
-
-    menu>ul>li>a:active {
-        background-color: #f08800;
-        color: #000000;
-    }
-
-    /* redes sociais */
-    #sociais {
-        position: relative;
-        margin: auto;
-        padding: 35px;
-    }
-
-    #sociais>div {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        width: 195px;
-        margin-top: 5px;
-        transform: translate(-50%, -50%);
-    }
-
-    #instagram,
-    #facebook,
-    #tiktok {
-        width: 60px;
-        height: 60px;
-    }
-
-    section#sociais>div>a,
-    section#sociais>div>a>img {
-        border-radius: 100%;
+        color: #ffae42;
+        background: #000000;
+        box-shadow: 0 0 10px 0 #ffae42;
+        transition: 0.2s;
     }
 
     /* album */
     section#album {
         margin-top: 50px;
         margin-bottom: 50px;
+
     }
 
     #ouca {
-        width: 290px;
+        width: 350px;
         display: block;
         margin: auto;
+        transition: .1s;
     }
 
     #disse {
-        width: 350px;
+        width: 450px;
         display: block;
         margin: auto;
+        transition: .1s;
     }
 
     #era {
-        width: 350px;
+        width: 450px;
         display: block;
         margin: auto;
+        transition: .1s;
     }
 
     #capa-album {
-        height: 300px;
+        height: 400px;
         display: block;
         margin: auto;
         margin-bottom: 10px;
         margin-top: 10px;
+        transition: .1s;
     }
 
     #em {
-        width: 300px;
+        width: 400px;
         display: block;
         margin: auto;
         margin-top: 30px;
+        transition: .1s;
     }
 
     div#stream {
@@ -159,60 +426,64 @@ body {
         width: 125px;
         margin: 0px;
         margin: auto;
+        transition: .1s;
     }
 
-    section#album>div>div#stream>a>img {
-        display: block;
-
-        width: 80px;
-        height: 45px;
-        margin-top: 15px;
-    }
 
     section#album>div {
         width: 300px;
-        margin: 0 auto;
         margin-top: 15px;
         display: flex;
         justify-content: space-between;
         margin-bottom: 15%;
+        transition: .1s;
     }
 
     section#album>div>div#stream>a>img#spotify {
-        width: 120px;
-        height: 45px;
+        width: 175px;
+        height: 55px;
+        margin-left: -60px;
+        transition: .1s;
     }
 
     section#album>div>div#stream>a>img#yt {
-        width: 130px;
-        height: 45px;
+        width: 175px;
+        height: 50px;
+        margin-left: -60px;
+        transition: .1s;
     }
 
     section#album>div>div#stream>a>img#amazon {
-        width: 130px;
-        height: 40px;
+        width: 190px;
+        height: 55px;
+        margin-left: -60px;
+        transition: .1s;
     }
 
     section#album>div>div#stream>a>img#deezer {
-        width: 120px;
-        height: 35px;
-        margin-bottom: 25px;
+        width: 185px;
+        height: 46px;
+        margin-bottom: 15px;
+        transition: .1s;
     }
 
     section#album>div>div#stream>a>img#apple {
-        width: 120px;
-        height: 35px;
+        width: 175px;
+        height: 40px;
+        margin-top: 25px;
+        transition: .1s;
     }
 
     section#album>div>div#stream>a>img#itunes {
-        margin-top: 30px;
-        width: 120px;
-        height: 30px;
+        margin-top: 25px;
+        width: 185px;
+        height: 40px;
+        transition: .1s;
     }
 
     /* AGENDA */
-    #agenda {
-        text-align: center;
+    agenda {
+        display: inline-block;
         background-color: #f08800;
     }
 
@@ -221,96 +492,27 @@ body {
     }
 
     #agenda>p {
+        display: inline-block;
         font-size: 1.5em;
+
     }
 
-    #agenda>a>input {
-        padding: 10px;
+    #agenda>p>a>input {
+        margin: 10px 0px 10px 80px;
         border: #000000;
         color: #f08800;
         background-color: black;
-        font-size: 1.5em;
-        margin: 10px 0px 10px 0px;
+        font-size: 1.1em;
+        
     }
 
-    #agenda>a>input:hover {
-        padding: 8px;
-        border: #000000 2px solid;
+    #agenda>p>a>input:hover {
+        margin: 10px 0px 10px 80px;
+        transition: 0.2s;
+        border: #000000 1px solid;
         color: #000000;
         font-weight: bolder;
         background-color: #f08800;
         cursor: pointer;
-    }
-
-    #Pvideo {
-        text-align: center;
-        color: #f08800;
-        margin-top: 20px;
-    }
-
-    #Pvideo>P {
-        font-size: 1.1em;
-    }
-
-    #Pvideo>div {
-        margin: 0px 0px 30px 0px;
-        padding: 0px;
-        padding-bottom: 58%;
-        position: relative;
-    }
-
-    iframe {
-        display: block;
-        position: absolute;
-        top: 10%;
-        left: 5%;
-        width: 90%;
-        height: 95%;
-    }
-
-    /* footer */
-    #contato {
-        text-align: center;
-        background-color: #f08800;
-        color: black;
-        padding-bottom: 10px;
-    }
-
-    #contato>h1 {
-        font-size: 2.5em;
-    }
-
-    #contato>a>strong,
-    #contato>a,
-    #contato>h1 {
-        text-align: center;
-        background-color: #f08800;
-        color: black;
-    }
-
-    #contato>a>strong,
-    #contato>a {
-        display: block;
-        margin: 10px;
-    }
-
-
-    #desenvolvedores {
-        text-align: center;
-        color: #f08800;
-        text-decoration: none;
-    }
-
-    #desenvolvedores>a>strong,
-    #desenvolvedores>a {
-
-        color: #f08800;
-        text-decoration: none;
-    }
-    
-}
-@media screen and (min-width: 768px) and (max-width: 1500px) {
-    #burguer {
-        display: none;
     }
 }
