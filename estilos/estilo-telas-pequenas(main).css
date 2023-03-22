@@ -309,32 +309,3 @@ body {
     }
     
 }
-
-/* TABLET */
-@media screen and (min-width: 768px) {
-    #logo-header {
-        margin-top: 5px;
-        height: 100px;
-        margin-left: 5px;
-    }
-
-    span#burguer {
-        display: none;
-    }
-
-    menu {
-        display: block;
-    }
-
-    menu>ul>li>a {
-        display: inline-block;
-        background-color: #ffae42;
-        border-radius: 10%;
-        width: 100px;
-        height: 40px;
-        cursor: pointer;
-        text-align: center;
-        padding-top: 7px;
-    }
-
-}
