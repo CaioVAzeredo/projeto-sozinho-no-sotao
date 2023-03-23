@@ -7,8 +7,6 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 
-
-    /* por enquanto */
 }
 
 body,
@@ -26,6 +24,225 @@ html {
 
     #burguer {
         display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu>ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    menu>ul>li {
+        display: inline-block;
+    }
+
+    menu>ul>li>a {
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background: #ffae42;
+        padding: 5px 50px 5px 50px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    menu>ul>li>a:hover {
+        color: #ffae42;
+        background: #000000;
+        box-shadow: 0 0 10px 0 #ffae42;
+        transition: 0.2s;
+    }
+
+    /* album */
+    section#album {
+        width: 5px;
+        height: 500px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+
+    /* #ouca {
+        width: 350px;
+        display: flex;
+        left: 50%;
+        top: 50%;
+    }
+
+    section#album>div {
+        position: absolute;
+    } */
+
+    #disse {
+        width: 243px;
+
+    }
+
+    #era {
+
+        margin-left: 5px;
+        width: 200px;
+        margin-bottom: 1px;
+
+    }
+
+    #capa-album {
+        height: 400px;
+        position: absolute;
+        left: 55%;
+    }
+
+    #em {
+        width: 400px;
+
+    }
+
+    div#stream {
+        height: 150px;
+        width: 125px;
+
+    }
+
+
+    section#album>div {
+        width: 300px;
+        margin-top: 15px;
+
+    }
+
+    section#album>div>div#stream>a>img#spotify {
+        width: 175px;
+
+    }
+
+    section#album>div>div#stream>a>img#yt {
+        width: 175px;
+        height: 50px;
+        margin-left: -60px;
+        transition: .1s;
+    }
+
+    section#album>div>div#stream>a>img#amazon {
+        width: 190px;
+        height: 55px;
+        margin-left: -60px;
+        transition: .1s;
+    }
+
+    section#album>div>div#stream>a>img#deezer {
+        width: 185px;
+        height: 46px;
+        margin-bottom: 15px;
+        transition: .1s;
+    }
+
+    section#album>div>div#stream>a>img#apple {
+        width: 175px;
+        height: 40px;
+        margin-top: 25px;
+        transition: .1s;
+    }
+
+    section#album>div>div#stream>a>img#itunes {
+        margin-top: 25px;
+        width: 185px;
+        height: 40px;
+        transition: .1s;
+    }
+
+    /* AGENDA */
+    agenda {
+        background-color: #f08800;
+    }
+
+    #agenda>h1 {
+        font-size: 2.5em;
+    }
+
+    #agenda>p {
+        margin: 0 auto;
+        font-size: 1.5em;
+
+    }
+
+    #agenda>p>a>input {
+        margin: 10px 0px 10px 150px;
+        border: #000000;
+        color: #f08800;
+        background-color: black;
+        font-size: 1.1em;
+
+    }
+
+    #agenda>p>a>input:hover {
+        margin: 10px 0px 10px 150px;
+        transition: 0.2s;
+        border: #000000 1px solid;
+        color: #000000;
+        font-weight: bolder;
+        background-color: #f08800;
+        cursor: pointer;
+    }
+
+    /* VIDEO */
+    #Pvideo {
+        text-align: center;
+        color: #f08800;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    #Pvideo>P {
+        margin: 0 auto;
+        width: 800px;
+        font-size: 1.5em;
+        margin-bottom: 0px;
+    }
+
+    #Pvideo>div {
+        display: block;
+        margin: 0 auto;
+        width: 900px;
+        height: 500px;
+        padding-bottom: 300px;
+    }
+
+    iframe {
+        width: 900px;
+        height: 500px;
+        display: block;
+        position: absolute;
+        left: 0%;
+    }
+
+    /* footer */
+
+    #contato {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #logo-header {
+        margin-top: 10px;
+        height: 200px;
+        margin-left: 5%;
+        transition: .1s;
+    }
+
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
     }
 
     menu>ul {
@@ -67,48 +284,33 @@ html {
 
     #ouca {
         width: 350px;
-        display: block;
-        margin: auto;
-        transition: .1s;
+
     }
 
     #disse {
         width: 450px;
-        display: block;
-        margin: auto;
-        transition: .1s;
+
     }
 
     #era {
         width: 450px;
-        display: block;
-        margin: auto;
-        transition: .1s;
+
     }
 
     #capa-album {
-        height: 400px;
-        display: block;
-        margin: auto;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        transition: .1s;
+        height: 500px;
+
     }
 
     #em {
         width: 400px;
-        display: block;
-        margin: auto;
-        margin-top: 30px;
-        transition: .1s;
+
     }
 
     div#stream {
         height: 150px;
         width: 125px;
-        margin: 0px;
-        margin: auto;
-        transition: .1s;
+
     }
 
 
@@ -117,7 +319,7 @@ html {
         margin-top: 15px;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 15%;
+        margin-bottom: 50px;
         transition: .1s;
     }
 
@@ -184,7 +386,7 @@ html {
         color: #f08800;
         background-color: black;
         font-size: 1.1em;
-        
+
     }
 
     #agenda>p>a>input:hover {
@@ -212,7 +414,7 @@ html {
         margin-bottom: 0px;
     }
 
-    #Pvideo>div {  
+    #Pvideo>div {
         display: block;
         margin: 0 auto;
         width: 900px;
@@ -220,15 +422,18 @@ html {
         padding-bottom: 300px;
     }
 
-    iframe {  
+    iframe {
         width: 900px;
         height: 500px;
         display: block;
         position: absolute;
         left: 0%;
     }
+
     /* footer */
-#contato {
-    margin-top: 10%;
-}
+    #contato {
+        margin-top: 90px;
+    }
+
+
 }
