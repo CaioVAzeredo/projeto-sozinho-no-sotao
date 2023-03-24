@@ -70,26 +70,28 @@ html {
 
     section#album>div#disse-era {
         position: absolute;
-        left: 11%;
+        right: 55%;
         top: 36%;
     }
 
+
+
     section#album>#ouca {
         position: absolute;
-        left: 13%;
-        top: 46%;
+        right: 57%;
+        top: 47%;
     }
 
     #capa-album {
         height: 415px;
         position: absolute;
-        left: 55%;
+        left: 53%;
     }
 
     #em {
         position: absolute;
-        top: 48%;
-        left: 11%;
+        top: 50%;
+        right: 55%;
         width: 400px;
 
     }
@@ -103,7 +105,7 @@ html {
 
     section#album>div#musicas {
         position: absolute;
-        left: 15%;
+        right: 60%;
         top: 55%;
         width: 300px;
         margin-top: 15px;
@@ -112,7 +114,7 @@ html {
 
     section#album>div#musicas>div#stream>a>img#spotify {
         width: 175px;
-
+       
     }
 
     section#album>div#musicas>div#stream>a>img#yt {
@@ -216,17 +218,16 @@ html {
     }
 
     /* footer */
-
     #contato {
         margin-top: 90px;
     }
 }
 
-@media screen  and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     #logo-header {
         margin-top: 10px;
         height: 150px;
-        margin-left: 15%; 
+        margin-left: 15%;
         transition: .1s;
     }
 
@@ -268,96 +269,139 @@ html {
         transition: 0.2s;
     }
 
-        /* album */
-        section#album {
-            width: 80vw;
-            height: 650px;
-            margin: 0 auto;
-            display: block;
-        }
-    
-        section#album>div#disse-era {
-            position: absolute;
-            left: 11%;
-            top: 36%;
-        }
-    
-        section#album>#ouca {
-            position: absolute;
-            left: 13%;
-            top: 46%;
-        }
-    
-        #capa-album {
-            height: 500px;
-            position: absolute;
-            left: 55%;
-            transition: 0.5s;
-        }
-    
-        #em {
-            position: absolute;
-            top: 48%;
-            left: 11%;
-            width: 400px;
-    
-        }
-    
-        div#stream {
-    
-            height: 150px;
-            width: 125px;
-        }
-    
-    
-        section#album>div#musicas {
-            position: absolute;
-            left: 15%;
-            top: 55%;
-            width: 300px;
-            margin-top: 15px;
-    
-        }
-    
-        section#album>div#musicas>div#stream>a>img#spotify {
-            width: 175px;
-    
-        }
-    
-        section#album>div#musicas>div#stream>a>img#yt {
-            width: 175px;
-            height: 50px;
-            margin-left: -60px;
-            transition: .1s;
-        }
-    
-        section#album>div#musicas>div#stream>a>img#amazon {
-            width: 190px;
-            height: 55px;
-            margin-left: -60px;
-            transition: .1s;
-        }
-    
-        section#album>div#musicas>div#stream>a>img#deezer {
-            width: 185px;
-            height: 46px;
-            margin-bottom: 15px;
-            transition: .1s;
-        }
-    
-        section#album>div#musicas>div#stream>a>img#apple {
-            width: 175px;
-            height: 40px;
-            margin-top: 25px;
-            transition: .1s;
-        }
-    
-        section#album>div#musicas>div#stream>a>img#itunes {
-            margin-top: 25px;
-            width: 185px;
-            height: 40px;
-            transition: .1s;
-        }
+    /* album */
+    section#album {
+        width: 80vw;
+        height: 650px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    section#album>div#disse-era {
+        position: absolute;
+        right: 34%;
+        width: 790px;
+        top: 39%;
+    }
+
+    section#album>div#disse-era>#disse {
+        width: 355px;
+    }
+
+    section#album>div#disse-era>#era {
+        
+        width: 300px;
+    }
+
+    section#album>#ouca {
+        position: absolute;
+        right: 62%;
+        top: 46%;
+    }
+
+    #capa-album {
+        height: 500px;
+        position: absolute;
+        left: 55%;
+        transition: 0.5s;
+    }
+
+    #em {
+        position: absolute;
+        top: 48%;
+        right: 57%;
+        width: 450px;
+    }
+
+    div#stream {
+        height: 150px;
+        width: 125px;
+    }
+
+
+    section#album>div#musicas {
+        position: absolute;
+        right: 67%;
+        top: 55%;
+        width: 300px;
+        margin-top: 15px;
+
+    }
+
+    section#album>div#musicas>div#stream>a>img#spotify {
+        width: 150px;
+        margin-right: 50px;
+    }
+
+    section#album>div#musicas>div#stream>a>img#yt {
+        width: 175px;
+        height: 50px;
+        margin-left: -60px;
+        transition: .1s;
+    }
+
+    section#album>div#musicas>div#stream>a>img#amazon {
+        width: 190px;
+        height: 55px;
+        margin-left: -60px;
+        transition: .1s;
+    }
+
+    section#album>div#musicas>div#stream>a>img#deezer {
+        width: 185px;
+        height: 46px;
+        margin-bottom: 15px;
+        transition: .1s;
+    }
+
+    section#album>div#musicas>div#stream>a>img#apple {
+        width: 175px;
+        height: 40px;
+        margin-top: 25px;
+        transition: .1s;
+    }
+
+    section#album>div#musicas>div#stream>a>img#itunes {
+        margin-top: 25px;
+        width: 185px;
+        height: 40px;
+        transition: .1s;
+    }
+
+    /* AGENDA */
+    agenda {
+        background-color: #f08800;
+    }
+
+    #agenda>h1 {
+        font-size: 2.5em;
+    }
+
+    #agenda>p {
+        margin: 0 auto;
+        font-size: 1.5em;
+
+    }
+
+    #agenda>p>a>input {
+        margin: 10px 0px 10px 150px;
+        border: #000000;
+        color: #f08800;
+        background-color: black;
+        font-size: 1.1em;
+
+    }
+
+    #agenda>p>a>input:hover {
+        margin: 10px 0px 10px 150px;
+        transition: 0.2s;
+        border: #000000 1px solid;
+        color: #000000;
+        font-weight: bolder;
+        background-color: #f08800;
+        cursor: pointer;
+    }
+
     /* VIDEO */
     #Pvideo {
         text-align: center;
