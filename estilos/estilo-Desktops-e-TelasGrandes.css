@@ -71,15 +71,16 @@ html {
     section#album>div#disse-era {
         position: absolute;
         right: 55%;
-        top: 36%;
+        top: 345px;
     }
 
 
 
     section#album>#ouca {
+        width: 300px;
         position: absolute;
-        right: 57%;
-        top: 47%;
+        right: 60%;
+        top: 480px;
     }
 
     #capa-album {
@@ -90,7 +91,7 @@ html {
 
     #em {
         position: absolute;
-        top: 50%;
+        top: 500px;
         right: 55%;
         width: 400px;
 
@@ -106,7 +107,7 @@ html {
     section#album>div#musicas {
         position: absolute;
         right: 60%;
-        top: 55%;
+        top: 550px;
         width: 300px;
         margin-top: 15px;
 
@@ -223,11 +224,11 @@ html {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 12000px) {
     #logo-header {
         margin-top: 10px;
         height: 150px;
-        margin-left: 15%;
+        margin-left: 10%;
         transition: .1s;
     }
 
@@ -276,12 +277,12 @@ html {
         margin: 0 auto;
         display: block;
     }
-
+    
     section#album>div#disse-era {
-        position: absolute;
-        right: 34%;
+        position: absolute; 
+        right: 39%;
+        left: 2px;
         width: 790px;
-        top: 39%;
     }
 
     section#album>div#disse-era>#disse {
@@ -289,14 +290,15 @@ html {
     }
 
     section#album>div#disse-era>#era {
-        
         width: 300px;
     }
 
     section#album>#ouca {
+        width: 300px;
         position: absolute;
-        right: 62%;
-        top: 46%;
+        right: 44%;
+        left: 10px;
+        top: 480px;
     }
 
     #capa-album {
@@ -308,9 +310,11 @@ html {
 
     #em {
         position: absolute;
-        top: 48%;
-        right: 57%;
-        width: 450px;
+        top: 500px;
+        right: 44%;
+        left: 10px;
+        width: 400px;
+
     }
 
     div#stream {
@@ -321,16 +325,19 @@ html {
 
     section#album>div#musicas {
         position: absolute;
-        right: 67%;
-        top: 55%;
+        right: 44%;
+        left: 10px;
+        top: 620px;
         width: 300px;
         margin-top: 15px;
 
     }
 
     section#album>div#musicas>div#stream>a>img#spotify {
-        width: 150px;
-        margin-right: 50px;
+        width: 170px;
+        height: 60px;
+        margin-bottom: 10px;
+        margin-left: -57px;
     }
 
     section#album>div#musicas>div#stream>a>img#yt {
