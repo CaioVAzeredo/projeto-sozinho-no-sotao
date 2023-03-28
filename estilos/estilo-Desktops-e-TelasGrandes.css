@@ -224,7 +224,7 @@ html {
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 12000px) {
+@media screen and (min-width: 1200px) {
     #logo-header {
         margin-top: 10px;
         height: 150px;
@@ -279,26 +279,32 @@ html {
     }
     
     section#album>div#disse-era {
-        position: absolute; 
-        right: 39%;
-        left: 2px;
-        width: 790px;
+        position: absolute;
+        right: 58%;
+        left: 10px;
+        top: 345px;
     }
 
     section#album>div#disse-era>#disse {
-        width: 355px;
+        width: 600px;
+    }
+    
+    section#album>div#disse-era>#era {
+        width: 600px;
     }
 
-    section#album>div#disse-era>#era {
-        width: 300px;
+    #capa-album {
+        height: 415px;
+        position: absolute;
+        left: 53%;
     }
 
     section#album>#ouca {
         width: 300px;
         position: absolute;
-        right: 44%;
-        left: 10px;
-        top: 480px;
+        left: -10%;
+        right: 33%;
+        top: 530px;
     }
 
     #capa-album {
@@ -310,10 +316,10 @@ html {
 
     #em {
         position: absolute;
-        top: 500px;
-        right: 44%;
+        top: 540px;
+        right: 43%;
         left: 10px;
-        width: 400px;
+        width: 450px;
 
     }
 
