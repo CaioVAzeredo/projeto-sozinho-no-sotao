@@ -1,0 +1,177 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    transition: 0.5s;
+    /* por enquanto */
+}
+
+body,
+html {
+    background-color: #000000;
+}
+
+/* MOBILE */
+
+
+/* header */
+/* logo */
+#logo-header {
+    margin-top: 5px;
+    height: 100px;
+    margin-left: 5px;
+    transition: .1s;
+}
+
+/* menu */
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+#burguer {
+    color: black;
+    background-color: #ffae42;
+    border-radius: 10%;
+    padding-top: 14px;
+    padding-left: 13px;
+    width: 51px;
+    height: 53px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: -50px;
+}
+
+#burguer:hover {
+    background-color: #fabf72;
+    cursor: pointer;
+}
+
+#burguer:active {
+    background-color: #f08800;
+    color: #000000;
+}
+
+menu {
+    display: none;
+}
+
+menu>ul {
+    list-style-type: none;
+}
+
+menu>ul>li>a {
+    display: block;
+    padding: 10px;
+    border-top: 1px black solid;
+    text-decoration: none;
+    background-color: #ffae42;
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+menu>ul>li>a:hover {
+    background-color: #fabf72;
+}
+
+menu>ul>li>a:active {
+    background-color: #f08800;
+    color: #000000;
+}
+
+/* CONTATO */
+main>h1 {
+    color: #f08800;
+    text-align: center;
+}
+main > form > p > label{
+    width: 80%;
+    color: #f08800;
+}
+main > form > p {
+    text-align: center;
+    margin:20px 10px 10px ;
+    font-size: 1.2em;
+}
+
+main>form>input#iemail {
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 80%;
+    padding: 10px;
+    border: #f08800 2px solid;
+    border-radius: 10px;
+}
+form>textarea#imensagem {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    background-color: #ffffff;
+    padding: 10px;
+    border: #f08800 2px solid;
+    border-radius: 15px;
+    width: 80%;
+    height: 150px;
+}
+main> form> input#btForm{
+    display: block;
+    margin: 45px auto;
+    padding: 5px 45px;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: #f08800;
+    border: #000000 solid 0px;
+    border-radius: 10px;
+}
+
+/* footer */
+#contato {
+    margin-top: 68px;
+    text-align: center;
+    background-color: #f08800;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#contato>h1 {
+    font-size: 1.5em;
+}
+
+#contato>a>strong,
+#contato>a,
+#contato>h1 {
+    text-align: center;
+    background-color: #f08800;
+    color: black;
+}
+
+#contato>a>strong,
+#contato>a {
+    display: block;
+    margin: 10px;
+}
+
+
+#desenvolvedores {
+    text-align: center;
+    color: #f08800;
+    text-decoration: none;
+}
+
+#desenvolvedores>a>strong,
+#desenvolvedores>a {
+
+    color: #f08800;
+    text-decoration: none;
+}
