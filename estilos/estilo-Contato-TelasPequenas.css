@@ -93,13 +93,15 @@ main>h1 {
     color: #f08800;
     text-align: center;
 }
-main > form > p > label{
+
+main>form>p>label {
     width: 80%;
     color: #f08800;
 }
-main > form > p {
+
+main>form>p {
     text-align: center;
-    margin:20px 10px 10px ;
+    margin: 20px 10px 10px;
     font-size: 1.2em;
 }
 
@@ -113,6 +115,7 @@ main>form>input#iemail {
     border: #f08800 2px solid;
     border-radius: 10px;
 }
+
 form>textarea#imensagem {
     display: block;
     margin: 0 auto;
@@ -122,9 +125,10 @@ form>textarea#imensagem {
     border: #f08800 2px solid;
     border-radius: 15px;
     width: 80%;
-    height: 150px;
+    height: 350px;
 }
-main> form> input#btForm{
+
+main>form>input#btForm {
     display: block;
     margin: 45px auto;
     padding: 5px 45px;
@@ -137,7 +141,7 @@ main> form> input#btForm{
 
 /* footer */
 #contato {
-    margin-top: 68px;
+    margin-top: 115px;
     text-align: center;
     background-color: #f08800;
     color: black;
@@ -174,4 +178,104 @@ main> form> input#btForm{
 
     color: #f08800;
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1500px) {
+    #burguer {
+        display: none;
+    }
+
+    #itens {
+        display: block;
+    }
+
+    menu>ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    menu>ul>li {
+        display: inline-block;
+    }
+
+    menu>ul>li>a {
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        font-size: 0.9em;
+        text-decoration: none;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background: #ffae42;
+        padding: 5px 45px 5px 45px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    menu>ul>li>a:hover {
+        color: #ffae42;
+        background: #000000;
+        box-shadow: 0 0 10px 0 #ffae42;
+        transition: 0.2s;
+    }
+
+    main>h1 {
+        color: #f08800;
+        text-align: center;
+    }
+
+    main>form>p>label {
+        width: 400px;
+        color: #f08800;
+    }
+
+    main>form>p {
+        margin-left: 50px;
+        margin: 20px 10px 10px;
+        font-size: 1.2em;
+    }
+    main > form >p.Pemail > label{
+        display: block;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        width: 400px;
+    }
+    
+    main > form >p.Pmsg > label{
+        display: block;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        width: 400px;
+    }
+
+
+    main>form>input#iemail {
+        background-color: #ffffff;
+        display: block;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        width: 400px;
+        padding: 10px;
+        border: #f08800 2px solid;
+        border-radius: 10px;
+    }
+
+    form>textarea#imensagem {
+        background-color: #ffffff;
+        display: block;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        width: 400px;
+        padding: 10px;
+        border: #f08800 2px solid;
+        border-radius: 10px;
+        height: 350px;
+    }
+
+    main>form>input#btForm {
+        display: block;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        width: 400px;
+    }
 }

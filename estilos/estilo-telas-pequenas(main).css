@@ -129,12 +129,14 @@ section#album {
     margin: auto;
     transition: .1s;
 }
-section#album>div#disse-era{
+
+section#album>div#disse-era {
     height: 80px;
     width: 300px;
     margin: 0 auto;
-    
+
 }
+
 section#album>div#disse-era>#disse {
     width: 300px;
 }
@@ -163,7 +165,7 @@ section#album>div#disse-era>#era {
 div#stream {
     height: 150px;
     width: 125px;
-    margin:   auto;
+    margin: auto;
     margin-bottom: 0px;
     transition: .1s;
 }
@@ -186,31 +188,31 @@ section#album>div#musicas {
     transition: .1s;
 }
 
-    section#album>div#musicas>div#stream>a>img#spotify {
-        width: 120px;
-        height: 45px;
-    }
+section#album>div#musicas>div#stream>a>img#spotify {
+    width: 120px;
+    height: 45px;
+}
 
-    section#album>div#musicas>div#stream>a>img#yt {
-        width: 130px;
-        height: 45px;
-    }
+section#album>div#musicas>div#stream>a>img#yt {
+    width: 130px;
+    height: 45px;
+}
 
-    section#album>div#musicas>div#stream>a>img#amazon {
-        width: 130px;
-        height: 40px;
-    }
+section#album>div#musicas>div#stream>a>img#amazon {
+    width: 130px;
+    height: 40px;
+}
 
-    section#album>div#musicas>div#stream>a>img#deezer {
-        width: 120px;
-        height: 35px;
-        margin-bottom: 25px;
-    }
+section#album>div#musicas>div#stream>a>img#deezer {
+    width: 120px;
+    height: 35px;
+    margin-bottom: 25px;
+}
 
-    section#album>div#musicas>div#stream>a>img#apple {
-        width: 120px;
-        height: 35px;
-    }
+section#album>div#musicas>div#stream>a>img#apple {
+    width: 120px;
+    height: 35px;
+}
 
 section#album>div#musicas>div#stream>a>img#itunes {
     margin-top: 20px;
@@ -318,17 +320,18 @@ iframe {
 #desenvolvedores>a>strong,
 #desenvolvedores>a {
 
-        color: #f08800;
-        text-decoration: none;
-    }
-    
+    color: #f08800;
+    text-decoration: none;
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1500px) {
     #burguer {
         display: none;
     }
-    #burguer {
-        display: none;
+
+    #itens {
+        display: block;
     }
 
     menu>ul {
@@ -360,6 +363,7 @@ iframe {
         box-shadow: 0 0 10px 0 #ffae42;
         transition: 0.2s;
     }
+
     /* album */
     section#album {
         margin-top: 50px;
@@ -374,20 +378,21 @@ iframe {
         transition: .1s;
     }
 
-    section#album>div#disse-era{
+    section#album>div#disse-era {
         height: 100px;
         width: 400px;
         margin: 0 auto;
-        
+
     }
+
     section#album>div#disse-era>#disse {
         width: 400px;
     }
-    
+
     section#album>div#disse-era>#era {
         width: 400px;
     }
-    
+
 
     #capa-album {
         height: 400px;
@@ -487,7 +492,7 @@ iframe {
         color: #f08800;
         background-color: black;
         font-size: 1.1em;
-        
+
     }
 
     #agenda>p>a>input:hover {
