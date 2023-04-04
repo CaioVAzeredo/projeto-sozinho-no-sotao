@@ -12,6 +12,7 @@
 
 body {
     background-color: #000000;
+<<<<<<< HEAD
 }
 
 /* MOBILE */
@@ -35,6 +36,28 @@ header>div{
     align-items: center;
     margin-bottom: 10px;
     padding: 5px;
+=======
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+
+    /* header */
+    /* logo */
+    #logo-header {
+        margin-top: 5px;
+        height: 100px;
+        margin-left: 5px;
+    }
+
+    /* menu */
+    header>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 5px;
+>>>>>>> 0f74be1fa246764dce3badf750c98a5039b28251
 
     }
 
@@ -149,6 +172,7 @@ header>div{
         width: 300px;
         display: block;
         margin: auto;
+<<<<<<< HEAD
     }
     section#album > div#stream > a > img{
         width: 80px;
@@ -175,6 +199,53 @@ header>div{
     section#album > div#stream > a > img#itunes{
         width: 120px;
         height: 35px;
+=======
+        margin-top: 30px;
+    }
+    div#stream{
+        height: 150px;
+        width: 125px;
+        margin: 0px;
+        margin: auto;
+    }
+
+    section#album >div > div#stream > a > img{
+        display: block;
+
+        width: 80px;
+        height: 45px;
+        margin-top: 15px;
+    }
+    section#album > div{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    section#album >div > div#stream > a > img#spotify{
+        width: 120px;
+        height: 45px;
+    }section#album >div > div#stream > a > img#yt{
+        width: 130px;
+        height: 45px;
+    }
+
+    section#album >div > div#stream > a > img#amazon{
+        width: 130px;
+        height: 40px;
+    }
+    section#album >div > div#stream > a > img#deezer{
+        width: 120px;
+        height: 40px;
+    }
+    section#album > div> div#stream > a > img#apple{
+        width: 120px;
+        height: 35px;
+    }
+    section#album >div > div#stream > a > img#itunes{
+        margin-top: 30px;
+        width: 120px;
+        height: 30px;
+>>>>>>> 0f74be1fa246764dce3badf750c98a5039b28251
     }
     /* AGENDA */
     #agenda {
