@@ -180,7 +180,7 @@ main>form>input#btForm {
     text-decoration: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1500px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     #burguer {
         display: none;
     }
@@ -219,63 +219,54 @@ main>form>input#btForm {
         transition: 0.2s;
     }
 
+    /* MAIN */
+
     main>h1 {
         color: #f08800;
         text-align: center;
     }
-
+    
     main>form>p>label {
         width: 400px;
         color: #f08800;
     }
-
+    
     main>form>p {
-        margin-left: 50px;
+        text-align: center;
         margin: 20px 10px 10px;
         font-size: 1.2em;
     }
-    main > form >p.Pemail > label{
-        display: block;
-        margin-left: 10%;
-        margin-bottom: 30px;
-        width: 400px;
-    }
     
-    main > form >p.Pmsg > label{
-        display: block;
-        margin-left: 10%;
-        margin-bottom: 30px;
-        width: 400px;
-    }
-
-
     main>form>input#iemail {
         background-color: #ffffff;
         display: block;
-        margin-left: 10%;
+        margin: 0 auto;
         margin-bottom: 30px;
         width: 400px;
         padding: 10px;
         border: #f08800 2px solid;
         border-radius: 10px;
     }
-
+    
     form>textarea#imensagem {
-        background-color: #ffffff;
         display: block;
-        margin-left: 10%;
-        margin-bottom: 30px;
+        margin: 0 auto;
         width: 400px;
+        background-color: #ffffff;
         padding: 10px;
         border: #f08800 2px solid;
-        border-radius: 10px;
+        border-radius: 15px;
         height: 350px;
     }
-
+    
     main>form>input#btForm {
         display: block;
-        margin-left: 10%;
-        margin-bottom: 30px;
-        width: 400px;
+        margin: 45px auto;
+        padding: 5px 45px;
+        font-size: 1.1em;
+        font-weight: bold;
+        background-color: #f08800;
+        border: #000000 solid 0px;
+        border-radius: 10px;
     }
 }
