@@ -60,7 +60,147 @@ html {
         box-shadow: 0 0 10px 0 #ffae42;
         transition: 0.2s;
     }
+    main>h1 {
+        color: #f08800;
+        text-align: center;
+    }
+    
+    main>form>p>label {
+        width: 400px;
+        color: #f08800;
+    }
+    
+    main>form>p {
+        text-align: center;
+        margin: 20px 10px 10px;
+        font-size: 1.2em;
+    }
+    
+    main>form>input#iemail {
+        background-color: #ffffff;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 600px;
+        padding: 10px;
+        border: #f08800 2px solid;
+        border-radius: 10px;
+    }
+    
+    form>textarea#imensagem {
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+        background-color: #ffffff;
+        padding: 10px;
+        border: #f08800 2px solid;
+        border-radius: 15px;
+        height: 350px;
+    }
+    
+    main>form>input#btForm {
+        display: block;
+        margin: 45px auto;
+        padding: 5px 45px;
+        font-size: 1.1em;
+        font-weight: bold;
+        background-color: #f08800;
+        border: #000000 solid 0px;
+        border-radius: 10px;
+    }
 }
 @media screen and (min-width: 1200px) {
+    #logo-header {
+        margin-top: 10px;
+        height: 150px;
+        margin-left: 10%;
+        transition: .1s;
+    }
 
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu>ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    menu>ul>li {
+        display: inline-block;
+    }
+
+    menu>ul>li>a {
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background: #ffae42;
+        padding: 5px 50px 5px 50px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    menu>ul>li>a:hover {
+        color: #ffae42;
+        background: #000000;
+        box-shadow: 0 0 10px 0 #ffae42;
+        transition: 0.2s;
+    }
+
+    main>h1 {
+        color: #f08800;
+        text-align: center;
+    }
+    
+    main>form>p>label {
+        width: 400px;
+        color: #f08800;
+    }
+    
+    main>form>p {
+        text-align: center;
+        margin: 20px 10px 10px;
+        font-size: 1.2em;
+    }
+    
+    main>form>input#iemail {
+        background-color: #ffffff;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 600px;
+        padding: 10px;
+        border: #f08800 2px solid;
+        border-radius: 10px;
+    }
+    
+    form>textarea#imensagem {
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+        background-color: #ffffff;
+        padding: 10px;
+        border: #f08800 2px solid;
+        border-radius: 15px;
+        height: 350px;
+    }
+    
+    main>form>input#btForm {
+        display: block;
+        margin: 45px auto;
+        padding: 5px 45px;
+        font-size: 1.1em;
+        font-weight: bold;
+        background-color: #f08800;
+        border: #000000 solid 0px;
+        border-radius: 10px;
+    }
 }
