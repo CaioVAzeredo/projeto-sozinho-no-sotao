@@ -31,7 +31,7 @@ function tela() {
         if (window.innerWidth >= 768) {
             itens.style.display = 'block'
         } else {
-            material.innerHTML = 'menu'
+            material.innerText = 'menu'
             material.style.color = 'black'
             material.style.background = '#ffae42'
             itens.style.display = 'none'
@@ -40,4 +40,3 @@ function tela() {
 }
 tela()
 click()
-
