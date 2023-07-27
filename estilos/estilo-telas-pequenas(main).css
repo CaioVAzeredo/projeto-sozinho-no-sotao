@@ -39,7 +39,7 @@ header>div {
 
 #burguer {
     color: black;
-    background-color: #ffae42;
+    background-color: #f08800;
     border-radius: 10%;
     padding-top: 14px;
     padding-left: 13px;
@@ -56,7 +56,7 @@ header>div {
 }
 
 #burguer:active {
-    background-color: #f08800;
+    background-color: #b56700;
     color: #000000;
 }
 
@@ -73,7 +73,7 @@ menu>ul>li>a {
     padding: 10px;
     border-top: 1px black solid;
     text-decoration: none;
-    background-color: #ffae42;
+    background-color: #f08800;
     color: black;
     text-align: center;
     font-size: 1.5em;
@@ -84,7 +84,7 @@ menu>ul>li>a:hover {
 }
 
 menu>ul>li>a:active {
-    background-color: #f08800;
+    background-color: #aa6100;
     color: #000000;
 }
 
@@ -351,7 +351,6 @@ iframe {
         text-decoration: none;
         box-sizing: border-box;
         border-radius: 2px;
-        background: #ffae42;
         padding: 5px 45px 5px 45px;
         text-align: center;
         margin-bottom: 50px;

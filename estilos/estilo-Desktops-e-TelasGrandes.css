@@ -47,16 +47,16 @@ html {
         text-decoration: none;
         box-sizing: border-box;
         border-radius: 2px;
-        background: #ffae42;
+        background: #f08800;
         padding: 5px 50px 5px 50px;
         text-align: center;
         margin-bottom: 50px;
     }
 
     menu>ul>li>a:hover {
-        color: #ffae42;
+        color: #f08800;
         background: #000000;
-        box-shadow: 0 0 10px 0 #ffae42;
+        box-shadow: 0 0 10px 0 #f08800;
         transition: 0.2s;
     }
 
@@ -257,7 +257,7 @@ html {
         text-decoration: none;
         box-sizing: border-box;
         border-radius: 2px;
-        background: #ffae42;
+        background: #f08800;
         padding: 5px 50px 5px 50px;
         text-align: center;
         margin-bottom: 50px;
@@ -383,7 +383,7 @@ html {
 
     /* AGENDA */
     agenda {
-        background-color: #f08800;
+        background-color: #ffae42;
     }
 
     #agenda>h1 {
@@ -399,7 +399,7 @@ html {
     #agenda>p>a>input {
         margin: 10px 0px 10px 150px;
         border: #000000;
-        color: #f08800;
+        color: #ffae42;
         background-color: black;
         font-size: 1.1em;
 
@@ -411,14 +411,14 @@ html {
         border: #000000 1px solid;
         color: #000000;
         font-weight: bolder;
-        background-color: #f08800;
+        background-color: #ffae42;
         cursor: pointer;
     }
 
     /* VIDEO */
     #Pvideo {
         text-align: center;
-        color: #f08800;
+        color: #ffae42;
         margin-top: 20px;
         margin-bottom: 50px;
     }
