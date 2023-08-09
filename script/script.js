@@ -8,13 +8,13 @@ function click() {
                 itens.style.display = 'none'
                 material.innerHTML = 'menu'
                 material.style.color = 'black'
-                material.style.background = '#f08800'
+                material.style.background = '#ffae42'
 
             } else {
                 itens.style.display = 'block'
                 material.style.color = '#ffae42'
                 material.style.background = 'black'
-                material.style.border = '1px solid #f08800'
+                material.style.border = '1px solid #ffae42'
                 material.innerHTML = 'close'
 
             }
@@ -27,13 +27,13 @@ function click() {
 }
 
 function tela() {
-    window.addEventListener('resize', (e) => {
+    window.addEventListener('resize', () => {
         if (window.innerWidth >= 768) {
             itens.style.display = 'block'
         } else {
             material.innerText = 'menu'
             material.style.color = 'black'
-            material.style.background = '#f08800'
+            material.style.background = '#ffae42'
             itens.style.display = 'none'
         }
     })

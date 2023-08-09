@@ -39,7 +39,7 @@ header>div {
 
 #burguer {
     color: black;
-    background-color: #f08800;
+    background-color: #ffae42;
     border-radius: 10%;
     padding-top: 14px;
     padding-left: 13px;
@@ -73,7 +73,7 @@ menu>ul>li>a {
     padding: 10px;
     border-top: 1px black solid;
     text-decoration: none;
-    background-color: #f08800;
+    background-color: #ffae42;
     color: black;
     text-align: center;
     font-size: 1.5em;
@@ -224,7 +224,7 @@ section#album>div#musicas>div#stream>a>img#itunes {
 /* AGENDA */
 #agenda {
     text-align: center;
-    background-color: #f08800;
+    background-color: #ffae42;
 }
 
 #agenda>h1 {
@@ -239,7 +239,7 @@ section#album>div#musicas>div#stream>a>img#itunes {
     padding: 10px 55px;
     margin: 10px 0px 10px 0px;
     border: #000000;
-    color: #f08800;
+    color: #ffae42;
     background-color: black;
     font-size: 1.1em;
     margin: 10px 0px 10px 0px;
@@ -258,7 +258,7 @@ section#album>div#musicas>div#stream>a>img#itunes {
 
 #Pvideo {
     text-align: center;
-    color: #f08800;
+    color: #ffae42;
     margin-top: 20px;
     margin-bottom: 5%;
 }
@@ -287,7 +287,7 @@ iframe {
 /* footer */
 #contato {
     text-align: center;
-    background-color: #f08800;
+    background-color: #ffae42;
     color: black;
     padding-bottom: 10px;
 }
@@ -300,7 +300,7 @@ iframe {
 #contato>a,
 #contato>h1 {
     text-align: center;
-    background-color: #f08800;
+    background-color: #ffae42;
     color: black;
 }
 
@@ -313,7 +313,7 @@ iframe {
 
 #desenvolvedores {
     text-align: center;
-    color: #f08800;
+    color: #ffae42;
     text-decoration: none;
 }
 
@@ -472,7 +472,7 @@ iframe {
 
     /* AGENDA */
     agenda {
-        background-color: #f08800;
+        background-color: #ffae42;
     }
 
     #agenda>h1 {
@@ -488,7 +488,7 @@ iframe {
     #agenda>p>a>input {
         margin: 10px 0px 10px 9%;
         border: #000000;
-        color: #f08800;
+        color: #ffae42;
         background-color: black;
         font-size: 1.1em;
 
