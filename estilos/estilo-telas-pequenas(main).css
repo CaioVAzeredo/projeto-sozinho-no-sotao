@@ -234,7 +234,10 @@ section#album>div#musicas>div#stream>a>img#itunes {
 #agenda>p {
     font-size: 1.5em;
 }
-
+#agenda>p>a{
+    color: #000000;
+    
+}
 #agenda>p>a>input {
     padding: 10px 55px;
     margin: 10px 0px 10px 0px;

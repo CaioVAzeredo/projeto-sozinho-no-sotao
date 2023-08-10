@@ -1,0 +1,5 @@
+ - loading page
+ - eCommerce
+ - pagina de login e senha
+ - api email
+ - api BD

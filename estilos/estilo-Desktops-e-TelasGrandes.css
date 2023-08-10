@@ -115,7 +115,7 @@ html {
 
     section#album>div#musicas>div#stream>a>img#spotify {
         width: 175px;
-       
+
     }
 
     section#album>div#musicas>div#stream>a>img#yt {
@@ -171,7 +171,7 @@ html {
     #agenda>p>a>input {
         margin: 10px 0px 10px 150px;
         border: #000000;
-        color: #f08800;
+        color: #ffae42;
         background-color: black;
         font-size: 1.1em;
 
@@ -190,7 +190,7 @@ html {
     /* VIDEO */
     #Pvideo {
         text-align: center;
-        color: #f08800;
+        color: #ffae42;
         margin-top: 20px;
         margin-bottom: 50px;
     }
@@ -277,7 +277,7 @@ html {
         margin: 0 auto;
         display: block;
     }
-    
+
     section#album>div#disse-era {
         position: absolute;
         right: 58%;
@@ -288,7 +288,7 @@ html {
     section#album>div#disse-era>#disse {
         width: 600px;
     }
-    
+
     section#album>div#disse-era>#era {
         width: 600px;
     }
