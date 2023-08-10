@@ -83,7 +83,7 @@ html {
         margin-bottom: 30px;
         width: 600px;
         padding: 10px;
-        border: #f08800 2px solid;
+        border: #ffae42 2px solid;
         border-radius: 10px;
     }
     
@@ -93,7 +93,7 @@ html {
         width: 600px;
         background-color: #ffffff;
         padding: 10px;
-        border: #f08800 2px solid;
+        border: #ffae42 2px solid;
         border-radius: 15px;
         height: 350px;
     }
@@ -104,10 +104,11 @@ html {
         padding: 5px 45px;
         font-size: 1.1em;
         font-weight: bold;
-        background-color: #f08800;
+        background-color: #ffae42;
         border: #000000 solid 0px;
         border-radius: 10px;
     }
+    
 }
 @media screen and (min-width: 1200px) {
     #logo-header {
@@ -156,13 +157,13 @@ html {
     }
 
     main>h1 {
-        color: #f08800;
+        color: #ffae42;
         text-align: center;
     }
     
     main>form>p>label {
         width: 400px;
-        color: #f08800;
+        color: #ffae42;
     }
     
     main>form>p {
@@ -178,7 +179,7 @@ html {
         margin-bottom: 30px;
         width: 600px;
         padding: 10px;
-        border: #f08800 2px solid;
+        border: #ffae42 2px solid;
         border-radius: 10px;
     }
     
@@ -188,7 +189,7 @@ html {
         width: 600px;
         background-color: #ffffff;
         padding: 10px;
-        border: #f08800 2px solid;
+        border: #ffae42 2px solid;
         border-radius: 15px;
         height: 350px;
     }
@@ -199,7 +200,7 @@ html {
         padding: 5px 45px;
         font-size: 1.1em;
         font-weight: bold;
-        background-color: #f08800;
+        background-color: #ffae42;
         border: #000000 solid 0px;
         border-radius: 10px;
     }

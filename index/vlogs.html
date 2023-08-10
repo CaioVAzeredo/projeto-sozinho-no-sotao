@@ -13,7 +13,22 @@
     </head>
 
     <body>
-        
+        <!-- Cabeçalho (logo e menu) -->
+    <header>
+        <div><img src="../imagens/Logo-sozinho-no-sotao.png" alt="Logo-sozinho-no-sotao" id="logo-header"><!-- logo -->
+            <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        </div><!-- icone haburguer para telas pequenas-->
+
+        <menu id="itens"><!-- menu -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="#" class="shop">Shop</a></li> -->
+                <li><a href="contato.html" target="_parent">Contato</a></li>
+                <li><a href="vlogs.html">Vlogs </a></li>
+                <li><a href="covers.html">Covers </a></li>
+            </ul>
+        </menu>
+    </header>
         <main>
             <h1 id="h1-vlog">Vlogs</h1>
             
@@ -83,14 +98,15 @@
             </div>
         </main>
 
-        <footer>
-           <h2> Contato para shows </h2>
-            <a href="mailto:sozinhonosotao@gmail.com">sozinhonosotao@gmail.com</a>
-            <a href="mailto:thiago.neves@gmail.com">thiago.neves@gmail.com</a>
+        <footer id="contato">
+            <h1>Contato para shows</h1>
+            <a href="mailto:sozinhonosotao@gmail.com"><strong>sozinhonosotao@gmail.com</strong></a>
+    
         </footer>
-        <footer>
-           <p> Site feito por <strong><a href="https://github.com/CaioVAzeredo" target="_blank">Caio V. Azeredo</a></strong> e
-             <strong><a href="https://github.com/Dan-Dias">Daniel Dias</a></strong> </p>
+        <!-- rodapé com informações dos desenvolvedores (links levando para alguma rede social dos desenvolvedores) -->
+        <footer id="desenvolvedores">
+            Site feito por <a href="https://github.com/CaioVAzeredo" target="_blank"><strong>Caio V. Azeredo</strong></a> e
+            <a href="https://github.com/Dan-Dias" target="_blank"><strong>Daniel Dias<strong><a>
         </footer>
     </body>
     <script src="../script/script.js"></script>

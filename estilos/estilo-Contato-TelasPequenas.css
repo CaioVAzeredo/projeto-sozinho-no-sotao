@@ -90,13 +90,13 @@ menu>ul>li>a:active {
 
 /* CONTATO */
 main>h1 {
-    color: #f08800;
+    color: #ffae42;
     text-align: center;
 }
 
 main>form>p>label {
     width: 80%;
-    color: #f08800;
+    color: #ffae42;
 }
 
 main>form>p {
@@ -112,7 +112,7 @@ main>form>input#iemail {
     margin-bottom: 30px;
     width: 80%;
     padding: 10px;
-    border: #f08800 2px solid;
+    border: #ffae42 2px solid;
     border-radius: 10px;
 }
 
@@ -122,7 +122,7 @@ form>textarea#imensagem {
     width: 80%;
     background-color: #ffffff;
     padding: 10px;
-    border: #f08800 2px solid;
+    border: #ffae42 2px solid;
     border-radius: 15px;
     width: 80%;
     height: 350px;
@@ -134,7 +134,7 @@ main>form>input#btForm {
     padding: 5px 45px;
     font-size: 1.1em;
     font-weight: bold;
-    background-color: #f08800;
+    background-color: #ffae42;
     border: #000000 solid 0px;
     border-radius: 10px;
 }
@@ -143,7 +143,7 @@ main>form>input#btForm {
 #contato {
     margin-top: 115px;
     text-align: center;
-    background-color: #f08800;
+    background-color: #ffae42;
     color: black;
     padding-bottom: 10px;
 }
@@ -156,7 +156,7 @@ main>form>input#btForm {
 #contato>a,
 #contato>h1 {
     text-align: center;
-    background-color: #f08800;
+    background-color: #ffae42;
     color: black;
 }
 
@@ -169,14 +169,14 @@ main>form>input#btForm {
 
 #desenvolvedores {
     text-align: center;
-    color: #f08800;
+    color: #ffae42;
     text-decoration: none;
 }
 
 #desenvolvedores>a>strong,
 #desenvolvedores>a {
 
-    color: #f08800;
+    color: #ffae42;
     text-decoration: none;
 }
 
@@ -222,13 +222,13 @@ main>form>input#btForm {
     /* MAIN */
 
     main>h1 {
-        color: #f08800;
+        color: #ffae42;
         text-align: center;
     }
     
     main>form>p>label {
         width: 400px;
-        color: #f08800;
+        color: #ffae42;
     }
     
     main>form>p {
@@ -244,7 +244,7 @@ main>form>input#btForm {
         margin-bottom: 30px;
         width: 400px;
         padding: 10px;
-        border: #f08800 2px solid;
+        border: #ffae42 2px solid;
         border-radius: 10px;
     }
     
@@ -254,7 +254,7 @@ main>form>input#btForm {
         width: 400px;
         background-color: #ffffff;
         padding: 10px;
-        border: #f08800 2px solid;
+        border: #ffae42 2px solid;
         border-radius: 15px;
         height: 350px;
     }
@@ -265,7 +265,7 @@ main>form>input#btForm {
         padding: 5px 45px;
         font-size: 1.1em;
         font-weight: bold;
-        background-color: #f08800;
+        background-color: #ffae42;
         border: #000000 solid 0px;
         border-radius: 10px;
     }
