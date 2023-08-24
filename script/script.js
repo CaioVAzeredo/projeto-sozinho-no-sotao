@@ -38,5 +38,14 @@ function tela() {
         }
     })
 }
+
+function preload() {
+    document.addEventListener("DOMContentLoaded", () => {
+        document.querySelector(".box-load").style.display = "none"
+        document.querySelector(".content").style.display = "block"
+    })
+}
+
 tela()
 click()
+preload()

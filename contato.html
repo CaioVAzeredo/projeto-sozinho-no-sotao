@@ -15,47 +15,50 @@
 </head>
 
 <body>
-    <!-- Cabeçalho (logo e menu) -->
-    <header>
-        <div><img src="./imagens/Logo-sozinho-no-sotao.png" alt="Logo-sozinho-no-sotao" id="logo-header"><!-- logo -->
-            <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
-        </div><!-- icone haburguer para telas pequenas-->
-
-        <menu id="itens"><!-- menu -->
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <!-- <li><a href="#" class="shop">Shop</a></li> -->
-                <li><a href="contato.html" target="_parent">Contato</a></li>
-                <li><a href="vlogs.html">Vlogs </a></li>
-                <li><a href="covers.html">Covers </a></li>
-            </ul>
-        </menu>
-    </header>
-    
-    <!-- Conteúdo principal do site -->
-    <main>
-        <h1>CONTATO</h1>
-        <form action="https://api.staticforms.xyz/submit" method="post">
-            <input type="hidden" name="accessKey" value="98e25b4a-979d-44ea-8649-7c2e1103da3d">
-            <p class="email"><label for="email">E-mail:</label></p>
-            <input type="email" name="email" id="iemail" placeholder="exemplo@email.com">
-            <p class="Pmsg"><label for="imensagem">Insira sua mensagem no espaço abaixo: </label></p>
-            <textarea name="mensagem" id="imensagem" cols="30" rows="10" placeholder="Sua mesagem aqui..."></textarea>
-            <input type="submit" id="btForm" value="Enviar">
-        </form>
-    </main>
-    <!-- rodapé com informações dos desenvolvedores (links levando para alguma rede social dos desenvolvedores) -->
-    <footer id="contato">
-        <h1>Contato para shows</h1>
-        <a href="mailto:sozinhonosotao@gmail.com"><strong>sozinhonosotao@gmail.com</strong></a>
-
-    </footer>
-    <!-- rodapé com informações dos desenvolvedores (links levando para alguma rede social dos desenvolvedores) -->
-    <footer id="desenvolvedores">
-        Site feito por <a href="https://github.com/CaioVAzeredo" target="_blank"><strong>Caio V. Azeredo</strong></a> e
-        <a href="https://github.com/Dan-Dias"><strong>Daniel Dias<strong><a>
-    </footer>
-</body>
+    <div class="box-load">
+        <img src="imagens/Logo-sozinho-no-sotao.png" alt="logo-sozinho-nosotao" class="pre">
+    </div>
+    <div class="content">
+        <!-- Cabeçalho (logo e menu) -->
+        <header>
+            <div><img src="./imagens/Logo-sozinho-no-sotao.png" alt="Logo-sozinho-no-sotao" id="logo-header"><!-- logo -->
+                <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+            </div><!-- icone haburguer para telas pequenas-->
+            <menu id="itens"><!-- menu -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <!-- <li><a href="#" class="shop">Shop</a></li> -->
+                    <li><a href="contato.html" target="_parent">Contato</a></li>
+                    <li><a href="vlogs.html">Vlogs </a></li>
+                    <li><a href="covers.html">Covers </a></li>
+                </ul>
+            </menu>
+        </header>
+        
+        <!-- Conteúdo principal do site -->
+        <main>
+            <h1>CONTATO</h1>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="98e25b4a-979d-44ea-8649-7c2e1103da3d">
+                <p class="email"><label for="email">E-mail:</label></p>
+                <input type="email" name="email" id="iemail" placeholder="exemplo@email.com">
+                <p class="Pmsg"><label for="imensagem">Insira sua mensagem no espaço abaixo: </label></p>
+                <textarea name="mensagem" id="imensagem" cols="30" rows="10" placeholder="Sua mesagem aqui..."></textarea>
+                <input type="submit" id="btForm" value="Enviar">
+            </form>
+        </main>
+        <!-- rodapé com informações dos desenvolvedores (links levando para alguma rede social dos desenvolvedores) -->
+        <footer id="contato">
+            <h1>Contato para shows</h1>
+            <a href="mailto:sozinhonosotao@gmail.com"><strong>sozinhonosotao@gmail.com</strong></a>
+        </footer>
+        <!-- rodapé com informações dos desenvolvedores (links levando para alguma rede social dos desenvolvedores) -->
+        <footer id="desenvolvedores">
+            Site feito por <a href="https://github.com/CaioVAzeredo" target="_blank"><strong>Caio V. Azeredo</strong></a> e
+            <a href="https://github.com/Dan-Dias"><strong>Daniel Dias<strong><a>
+        </footer>
+        </body>
+    </div>
 <!-- script do site -->
 <script src="../script/script.js"></script>
 </html>
