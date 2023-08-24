@@ -40,7 +40,7 @@ function tela() {
 }
 
 function preload() {
-    document.addEventListener("DOMContentLoaded", () => {
+    window.addEventListener("load", () => {
         document.querySelector(".box-load").style.display = "none"
         document.querySelector(".content").style.display = "block"
     })
